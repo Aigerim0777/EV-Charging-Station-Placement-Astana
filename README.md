@@ -14,3 +14,29 @@ The Python analysis script and exact execution instructions must be added to thi
 
 ## Data Attribution
 OpenStreetMap contributors (ODbL).
+
+## Reproducing the Analysis
+
+The reduced GIS-MCDM pilot can be reproduced using Python and the provided OpenStreetMap dataset.
+
+### Installation
+
+```bash
+pip install -r requirements.txt
+```
+
+### Running the Analysis
+
+```bash
+python analysis.py --input export.geojson --output results
+```
+
+### Generated Results
+
+The analysis generates CSV, JSON, and PDF files containing criterion weights, H3 cell suitability scores, TOPSIS candidate rankings, sensitivity scenarios, and validation metrics.
+
+The pilot uses 219 eligible H3 cells and compares Equal, Entropy, and CRITIC weighting methods.
+
+### Reproducibility Notes
+
+This script is an independent reconstruction based on the methodology described in the article, rather than the original analysis script. Main AUC values and several spatial results were reproduced. Some confidence interval values differ slightly, and the complete permutation-testing procedure remains to be implemented.
