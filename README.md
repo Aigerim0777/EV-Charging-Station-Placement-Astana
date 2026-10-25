@@ -29,4 +29,3 @@ Restart the runtime after dependency installation if Colab requests it, then:
 - We could not re-run the full spatial pipeline here because H3 was unavailable. Run the script in Colab to validate fresh end-to-end outputs and compare them with the article before updating numerical claims.
 - Missing work: independent verification of mapped stations, AHP expert survey, population, land-use, slope screening and full-city coverage.
 
-If publishing, keep the generated outputs with matching source version and report departures transparently.
