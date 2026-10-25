@@ -1,0 +1,3 @@
+comparison,auc_difference,paired_ci_low,paired_ci_high,permutation_p,holm_p,test_blocks,permutations
+Entropy vs Equal,-0.019421487603305865,-0.10361768018018024,0.05722712256238955,0.6278,1.0,53,9999
+CRITIC vs Equal,0.0016528925619834212,-0.015264584094507313,0.021563924167555235,0.858,1.0,53,9999
